@@ -4,9 +4,9 @@
 
 ## Models
 
-- Post -> data:data rationale:text
-x User -> Devise
-x AdminUser -> STI
+- x Post -> data:data rationale:text
+- x User -> Devise
+- x AdminUser -> STI
 
 ## Features:
 
