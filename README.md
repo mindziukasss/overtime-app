@@ -5,8 +5,8 @@
 ## Models
 
 - Post -> data:data rationale:text
-- User -> Devise
-- AdminUser -> STI
+x User -> Devise
+x AdminUser -> STI
 
 ## Features:
 
