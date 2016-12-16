@@ -13,6 +13,7 @@
 - Approval Workflow
 - Sms Sending -> link to approval or avertime input
 - Administrate admin dashboard
+- Block non admin and guest users
 - Email summary to managers for approval
 - Needs to be documented if employee did not long overtime
 
