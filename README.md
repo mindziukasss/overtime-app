@@ -25,7 +25,7 @@
 
 ## Refactor TODOS:
 - x Add full_name method for users
--Refactor user association integration test in post_spec
+- x Refactor user association integration test in post_spec
 -Refactor posts/_form for admin user with status
--Fix post_spec.rb 85  to user factories
--Fix post_spec.rb 46  to have coorect user reference and not require update
+- x Fix post_spec.rb 85  to user factories
+- x Fix post_spec.rb 46  to have coorect user reference and not require update
