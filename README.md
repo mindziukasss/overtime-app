@@ -7,6 +7,7 @@
 - x Post -> data:data rationale:text
 - x User -> Devise
 - x AdminUser -> STI
+- AuditLog
 
 ## Features:
 
@@ -20,12 +21,12 @@
 ## UI:
 
 - x Bootstrap -> formatting
-- Icons from Font Awesome
+- x Icons from glyphicons
 - x Update the styles for forms
 
 ## Refactor TODOS:
 - x Add full_name method for users
 - x Refactor user association integration test in post_spec
--Refactor posts/_form for admin user with status
+- x Refactor posts/_form for admin user with status
 - x Fix post_spec.rb 85  to user factories
 - x Fix post_spec.rb 46  to have coorect user reference and not require update
