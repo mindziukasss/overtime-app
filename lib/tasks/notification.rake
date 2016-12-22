@@ -9,12 +9,6 @@ namespace :notification do
   	# 	SmsTool.send_sms()
   	# 	end
 
-  	# number: "555-555-3232"
-  	# number: "55555532323"
-  	#No space or dashes
-  	#exatly 10 characters
-  	#all characters have to be number
-
 
 
   end

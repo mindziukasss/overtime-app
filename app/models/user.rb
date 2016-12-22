@@ -1,6 +1,7 @@
 class User < ApplicationRecord
 
 	has_many :posts
+  has_many :audit_logs
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
@@ -18,6 +19,3 @@ class User < ApplicationRecord
   	last_name.upcase + ", " + first_name.upcase
   end
 end
-
-
-# User.create(first_name: "jonas",last_name: "jonelis",password:"123456",password_confirmation:"123456", email: "jonelis@jonelis.lt" )

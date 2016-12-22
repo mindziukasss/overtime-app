@@ -12,7 +12,7 @@
 ## Features:
 
 - Approval Workflow
-- Sms Sending -> link to approval or avertime input
+- Sms Sending -> link to approval or avertime input -> integrate with Heroku schelduler
 - x Administrate admin dashboard
 - x Block non admin and guest users
 - Email summary to managers for approval
