@@ -1,10 +1,18 @@
-@user = User.create(email: "test@test.com", password: "asdasd", password_confirmation: "asdasd",
-                         first_name: "Jon", last_name: "Snow")
+@user = User.create(email: "test@test.com",
+												 password: "asdasd",
+												 password_confirmation: "asdasd",
+                         first_name: "Jon",
+                         last_name: "Snow",
+                         phone: "4322386131")
 puts "1 User created"
 
 
-AdminUser.create(email: "admin@admin.com", password: "asdasd", password_confirmation: "asdasd",
-                         first_name: "Admin", last_name: "Admin")
+AdminUser.create(email: "admin@admin.com",
+								 password: "asdasd",
+								 password_confirmation: "asdasd",
+                 first_name: "Admin",
+                 last_name: "Admin",
+                 phone: "4322386131")
 puts "1 Admin User created"
 
 20.times do |post|

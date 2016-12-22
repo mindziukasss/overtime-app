@@ -6,8 +6,12 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
-         validates_presence_of :first_name, :last_name
+  validates_presence_of :first_name, :last_name, :phone
+
   def full_name
   	last_name.upcase + ", " + first_name.upcase
   end
 end
+
+
+# User.create(first_name: "jonas",last_name: "jonelis",password:"123456",password_confirmation:"123456", email: "jonelis@jonelis.lt" )

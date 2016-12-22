@@ -3,18 +3,28 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
 	before do
 		@user = FactoryGirl.create(:user)
-
 		end
+
 	describe "creation" do
 		it "can be created" do 
 			expect(@user).to be_valid
 		end
 
-		it "cannot be create without first_name, last_name" do
+		it "cannot be create without first_name" do
 			@user.first_name = nil
+			expect(@user).to_not be be_valid
+		end
+
+		it "cannot be create without last_name" do
 			@user.last_name = nil
 			expect(@user).to_not be be_valid
 		end
+		
+		it "cannot be create without phone" do
+			@user.phone = nil
+			expect(@user).to_not be be_valid
+		end
+
 	end
 
 	describe "custom name methods" do
