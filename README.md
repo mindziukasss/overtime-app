@@ -18,8 +18,16 @@
 -  Email summary to managers for approval
 - x Needs to be documented if employee did not long overtime
 - Create audit log for each text message
-- Need to update 
-
+- Need to update end_date when confirm
+- Need to update audit log status when an overtime reject
+- x Home icon
+- Update buttons employee homepage so they show on mobile
+- Update buttons include time span
+- update button sort order on employee homepage
+- Remove unnecessary nav bar for managers
+- Fix admin dashboard bug
+- Implement Honneybadger error reporting 
+- Implement new relic for keeping site alive
 ## UI:
 
 - x Bootstrap -> formatting
