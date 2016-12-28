@@ -12,11 +12,12 @@
 ## Features:
 
 - x Approval Workflow
-- Sms Sending -> link to approval or avertime input -> integrate with Heroku schelduler
+- x Sms Sending -> link to approval or avertime input -> integrate with Heroku schelduler
 - x Administrate admin dashboard
 - x Block non admin and guest users
-- Email summary to managers for approval
+-  Email summary to managers for approval
 - x Needs to be documented if employee did not long overtime
+- Create audit log for each text message
 
 ## UI:
 
