@@ -25,10 +25,8 @@
 - x Update buttons include time span
 - x update button sort order on employee homepage
 - x Remove unnecessary nav bar for managers
-- Fix admin dashboard bug
-- Implement Honneybadger error reporting 
+- x Fix admin dashboard bug
 - Implement new relic for keeping site alive
-- Check on data issue and verify correct hours are being tracked
 ## UI:
 
 - x Bootstrap -> formatting
