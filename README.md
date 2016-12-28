@@ -17,7 +17,7 @@
 - x Block non admin and guest users
 -  Email summary to managers for approval
 - x Needs to be documented if employee did not long overtime
-- Create audit log for each text message
+- x Create audit log for each text message
 - Need to update end_date when confirm
 - Need to update audit log status when an overtime reject
 - x Home icon
