@@ -18,6 +18,7 @@
 -  Email summary to managers for approval
 - x Needs to be documented if employee did not long overtime
 - Create audit log for each text message
+- Need to update 
 
 ## UI:
 
