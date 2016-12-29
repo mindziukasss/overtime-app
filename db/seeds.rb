@@ -32,7 +32,7 @@ puts "3 Audit_logs have been created"
   Post.create!(date: Date.today, rationale: "#{post} rationale content Mustache vinyl raw denim pork belly synth normcore ramps
    ennui offal, post-ironic dreamcatcher woke tbh enamel pin. Chartreuse 90's iPhone roof party, succulents hexagon vegan drinking
     vinegar iceland lo-fi man braid. Woke schlitz listicle microdosing. Authentic intelligentsia actually, disrupt cold-pressed
-     vaporware cornhole four loko hella umami skateboard vape.", user_id: @employee.id, overtime_request: 3.5)
+     vaporware cornhole four loko hella umami skateboard vape.", user_id: @employee.id, daily_hours: 12.5)
 end
 puts "20 Posts have been created"
 
