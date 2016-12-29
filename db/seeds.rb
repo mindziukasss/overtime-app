@@ -29,7 +29,7 @@ AuditLog.create!(user_id: @employee.id, status: 0, start_date: (Date.today - 20.
 puts "3 Audit_logs have been created"
 
 20.times do |post|
-  Post.create!(date: Date.today, rationale: "#{post} rationale content Mustache vinyl raw denim pork belly synth normcore ramps
+  Post.create!(date: Date.today, work_performed: "#{post} work_performed content Mustache vinyl raw denim pork belly synth normcore ramps
    ennui offal, post-ironic dreamcatcher woke tbh enamel pin. Chartreuse 90's iPhone roof party, succulents hexagon vegan drinking
     vinegar iceland lo-fi man braid. Woke schlitz listicle microdosing. Authentic intelligentsia actually, disrupt cold-pressed
      vaporware cornhole four loko hella umami skateboard vape.", user_id: @employee.id, daily_hours: 12.5)
