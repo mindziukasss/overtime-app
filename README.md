@@ -26,7 +26,7 @@
 - x update button sort order on employee homepage
 - x Remove unnecessary nav bar for managers
 - x Fix admin dashboard bug
-- Implement new relic for keeping site alive
+- x Implement new relic for keeping site alive
 ## UI:
 
 - x Bootstrap -> formatting
