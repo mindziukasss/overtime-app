@@ -19,11 +19,7 @@ class AdminUserDashboard < Administrate::BaseDashboard
     phone: Field::String.with_options(searchable: false),
     ssn: Field::Number.with_options(searchable: true),
     company: Field::String.with_options(searchable: false),
-
-
   }.freeze
-
-
 
   COLLECTION_ATTRIBUTES = [
     :posts,
